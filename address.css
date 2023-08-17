@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #AF5A10;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+ form {
+    display: grid;
+    flex-direction: row; 
+     align-items: center; 
+     font-family: Century Schoolbook, TeX Gyre Schola, serif ;
+    
+    }
+
+
+label, select, textarea, button {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+textarea {
+    height: 100px;
+}
+.btn{
+    margin-top:15px;
+    margin-left: 50px;
+    border: 3px solid #AF5A10;
+    border-radius:15px;
+    background-color:#AF5A10;
+    font-size:25px;
+    font-weight: bold;
+    font-family: Century Schoolbook, TeX Gyre Schola, serif ;
+    
+}
+a{
+    color: black;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(109, 17, 17, 0.671);
+}
+@media only screen and (max-width:1131px){
+    .btn{
+        width: 45vw;
+    }
+
+}

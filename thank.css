@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #AF5A10;
+  }
+  
+  .thank-you-container {
+    text-align: center;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  
